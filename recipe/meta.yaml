@@ -1,6 +1,6 @@
-{% set python_min = '3.11' %}
+{% set python_min = "3.11" %}
 {% set name = "nmma" %}
-{% set version = "0.2.3" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nmma-{{ version }}.tar.gz
-  sha256: e11dc67dda5ba7fc1a846a75dd76315b55567fbe0e2369ebc0f2ffd1a5b1aabf
+  sha256: a6dd84e2c74ae3a5efbf1fd89a1dbde0070040148fea7bf41ae8dda805af57d9
 
 build:
   entry_points:
